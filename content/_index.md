@@ -1,9 +1,9 @@
 ---
-title: My Site
+title: Ahrm Guides
 toc: false
 ---
 
-This is the landing page.
+Welcome to Ahrm's Guide
 
 ## Explore
 
