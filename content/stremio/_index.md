@@ -25,10 +25,10 @@ You have **TWO** options to choose from.
 
 **Real Debrid** -     
 * Around **$6.45** CAD for 30 Days (Can be cheaper for longer)
-* Access to more niche content (Niche anime and KDrama)
+* Accesses niche content at a faster rate (Better if all you watch is the anime or show that no one has ever heard of)
 * **ONLY 1 INTERNET CONNECTION AT A TIME; OR THEY WILL BAN YOU**
 
-**TorBox** - 
+**TorBox** - **RECOMMENDED**
 * Around **$4.15** CAD/month for Essential (Cheapest Plan)
 * Better for mainstream content (May or may not include the niche stuff)
 * Sharing API Keys is allowed
