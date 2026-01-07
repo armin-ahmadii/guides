@@ -1,0 +1,395 @@
+{
+  "metadata": {
+    "id": "ahrmstreams-2026-01-07.00-36-20-kvh4v3k",
+    "name": "AhrmStreams",
+    "description": "AhrmStreams",
+    "source": "external",
+    "author": "AhrmStreams",
+    "version": "1.0.0",
+    "category": "Debrid",
+    "serviceRequired": false,
+    "setToSaveInstallMenu": true
+  },
+  "config": {
+    "services": [
+      {
+        "id": "realdebrid",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "alldebrid",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "premiumize",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "debridlink",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "torbox",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "stremio_nntp",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "nzbdav",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "altmount",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "offcloud",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "putio",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "easynews",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "easydebrid",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "debrider",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "pikpak",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "seedr",
+        "enabled": false,
+        "credentials": {}
+      }
+    ],
+    "presets": [
+      {
+        "type": "torrentio",
+        "instanceId": "412",
+        "enabled": true,
+        "options": {
+          "name": "Torrentio",
+          "timeout": 10000,
+          "resources": [
+            "stream",
+            "catalog",
+            "meta"
+          ],
+          "providers": [],
+          "useMultipleInstances": false
+        }
+      },
+      {
+        "type": "comet",
+        "instanceId": "3d0",
+        "enabled": true,
+        "options": {
+          "name": "Comet",
+          "timeout": 10000,
+          "resources": [
+            "stream"
+          ],
+          "includeP2P": false,
+          "removeTrash": true,
+          "mediaTypes": []
+        }
+      },
+      {
+        "type": "mediafusion",
+        "instanceId": "d0b",
+        "enabled": true,
+        "options": {
+          "name": "MediaFusion",
+          "timeout": 10000,
+          "resources": [
+            "stream",
+            "catalog",
+            "meta"
+          ],
+          "useCachedResultsOnly": true,
+          "enableWatchlistCatalogs": false,
+          "downloadViaBrowser": false,
+          "contributorStreams": false,
+          "certificationLevelsFilter": [],
+          "nudityFilter": [],
+          "mediaTypes": []
+        }
+      },
+      {
+        "type": "stremthruTorz",
+        "instanceId": "9de",
+        "enabled": true,
+        "options": {
+          "name": "StremThru Torz",
+          "timeout": 10000,
+          "resources": [
+            "stream"
+          ],
+          "mediaTypes": [],
+          "includeP2P": false,
+          "useMultipleInstances": false
+        }
+      },
+      {
+        "type": "animetosho",
+        "instanceId": "09a",
+        "enabled": true,
+        "options": {
+          "name": "AnimeTosho",
+          "timeout": 10000,
+          "mediaTypes": [],
+          "useMultipleInstances": false
+        }
+      }
+    ],
+    "formatter": {
+      "id": "lightgdrive",
+      "definition": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "preferredQualities": [
+      "BluRay REMUX",
+      "BluRay",
+      "WEB-DL",
+      "WEBRip",
+      "HDRip",
+      "HC HD-Rip",
+      "DVDRip",
+      "HDTV",
+      "Unknown"
+    ],
+    "preferredResolutions": [
+      "2160p",
+      "1440p",
+      "1080p",
+      "Unknown"
+    ],
+    "excludedQualities": [
+      "CAM",
+      "SCR",
+      "TS",
+      "TC"
+    ],
+    "excludedVisualTags": [
+      "3D",
+      "H-OU",
+      "H-SBS"
+    ],
+    "sortCriteria": {
+      "global": [
+        {
+          "key": "cached",
+          "direction": "desc"
+        },
+        {
+          "key": "library",
+          "direction": "desc"
+        },
+        {
+          "key": "resolution",
+          "direction": "desc"
+        },
+        {
+          "key": "quality",
+          "direction": "desc"
+        },
+        {
+          "key": "regexPatterns",
+          "direction": "desc"
+        },
+        {
+          "key": "visualTag",
+          "direction": "desc"
+        },
+        {
+          "key": "language",
+          "direction": "desc"
+        },
+        {
+          "key": "size",
+          "direction": "desc"
+        },
+        {
+          "key": "seeders",
+          "direction": "desc"
+        }
+      ]
+    },
+    "deduplicator": {
+      "enabled": true,
+      "excludeAddons": [],
+      "multiGroupBehaviour": "aggressive",
+      "keys": [
+        "filename",
+        "infoHash"
+      ],
+      "cached": "single_result",
+      "uncached": "per_service",
+      "p2p": "single_result"
+    },
+    "proxy": {
+      "id": "mediaflow",
+      "proxiedAddons": [],
+      "proxiedServices": []
+    },
+    "excludeUncachedFromAddons": [],
+    "excludeUncachedFromServices": [],
+    "excludeUncachedFromStreamTypes": [],
+    "excludeCachedFromAddons": [],
+    "excludeCachedFromServices": [],
+    "excludeCachedFromStreamTypes": [],
+    "preferredEncodes": [
+      "AV1",
+      "HEVC",
+      "AVC",
+      "Unknown"
+    ],
+    "preferredStreamTypes": [],
+    "preferredVisualTags": [
+      "HDR+DV",
+      "HDR10+",
+      "HDR10",
+      "DV",
+      "HDR",
+      "10bit",
+      "IMAX",
+      "AI",
+      "SDR",
+      "Unknown"
+    ],
+    "preferredAudioTags": [
+      "Atmos",
+      "DD+",
+      "DD"
+    ],
+    "autoPlay": {
+      "attributes": [
+        "languages",
+        "resolution",
+        "quality"
+      ]
+    },
+    "cacheAndPlay": {
+      "streamTypes": [
+        "usenet"
+      ]
+    },
+    "statistics": {
+      "statsToShow": [
+        "addon",
+        "filter"
+      ]
+    },
+    "hideErrorsForResources": [],
+    "catalogModifications": [
+      {
+        "id": "4124414.torrentio-realdebrid",
+        "type": "other",
+        "name": "RealDebrid",
+        "shuffle": false,
+        "enabled": false,
+        "hideable": true,
+        "searchable": false,
+        "addonName": "Torrentio"
+      }
+    ],
+    "requiredLanguages": [],
+    "excludedLanguages": [],
+    "includedLanguages": [],
+    "preferredLanguages": [
+      "English",
+      "Persian",
+      "Japanese",
+      "Korean"
+    ],
+    "requiredAudioChannels": [],
+    "excludedAudioChannels": [],
+    "includedAudioChannels": [],
+    "preferredAudioChannels": [],
+    "requiredAudioTags": [],
+    "excludedAudioTags": [],
+    "includedAudioTags": [],
+    "requiredResolutions": [
+      "2160p",
+      "1440p",
+      "1080p"
+    ],
+    "excludedResolutions": [
+      "720p",
+      "576p",
+      "480p",
+      "360p",
+      "240p",
+      "144p"
+    ],
+    "includedResolutions": [],
+    "requiredQualities": [],
+    "includedQualities": [],
+    "requiredEncodes": [],
+    "excludedEncodes": [],
+    "includedEncodes": [],
+    "requiredStreamTypes": [],
+    "excludedStreamTypes": [],
+    "includedStreamTypes": [],
+    "requiredVisualTags": [],
+    "includedVisualTags": [],
+    "seederRangeTypes": [],
+    "titleMatching": {
+      "enabled": true,
+      "requestTypes": [
+        "movie",
+        "series",
+        "anime"
+      ],
+      "addons": []
+    },
+    "yearMatching": {
+      "requestTypes": [],
+      "addons": []
+    },
+    "seasonEpisodeMatching": {
+      "enabled": true,
+      "strict": true,
+      "requestTypes": [
+        "movie",
+        "series",
+        "anime"
+      ],
+      "addons": []
+    },
+    "requiredRegexPatterns": [],
+    "precacheNextEpisode": true,
+    "trusted": false,
+    "addonName": "AhrmStreams",
+    "addonDescription": "AhrmStreams is a pre-configured AIOStreams setup setup by ahrm found at https://guides.arminahmadi.cc",
+    "alwaysPrecache": true
+  }
+}

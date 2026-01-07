@@ -66,7 +66,7 @@ Select which provider you will be using:
 3. Uninstall all addons except **Cinemeta** and **Local Files**.
 
 ### Configure AIOStreams
-1. Download my preconfigured AIOStreams config file by clicking here.
+1. Download my preconfigured AIOStreams config file by clicking <a href="/AhrmStreams.json" download="AhrmStreams.json">HERE</a>.
 2. Click [here](https://aiostreamsfortheweak.nhyira.dev/stremio/configure) to open AIOStreams.
 3. In AIOStreams:
    * In the Save & Install section (💾 floppy disk icon), click Import, then Import Template, and select the config file you downloaded (ahrmstreams.json).
