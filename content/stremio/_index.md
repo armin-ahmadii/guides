@@ -28,7 +28,7 @@ You have **TWO** options to choose from.
 * Accesses niche content at a faster rate (Better if all you watch is the anime or show that no one has ever heard of)
 * **ONLY 1 INTERNET CONNECTION AT A TIME; OR THEY WILL BAN YOU**
 
-**TorBox** - *honestly i think this one is better (especially if you wanna share but they are both good options*
+**TorBox** - *honestly i think this one is better (especially if you wanna share) but they are both good options*
 * Around **$4.15** CAD/month for Essential (Cheapest Plan)
 * Better for mainstream content (May or may not take time to download the niche stuff)
 * Sharing API Keys is allowed
