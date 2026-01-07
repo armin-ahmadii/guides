@@ -28,8 +28,8 @@ params:
     displayLogo: false
 
   footer:
-    displayCopyright: true
-    displayPoweredBy: true
+    displayCopyright: false
+    displayPoweredBy: false
 
   editURL:
     enable: false
