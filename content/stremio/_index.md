@@ -30,7 +30,7 @@ You have **TWO** options to choose from.
 
 **TorBox** - **RECOMMENDED**
 * Around **$4.15** CAD/month for Essential (Cheapest Plan)
-* Better for mainstream content (May or may not include the niche stuff)
+* Better for mainstream content (May or may not take time to download the niche stuff)
 * Sharing API Keys is allowed
 * They do have a **FREE 7 Day Trial**, if you would like to test it out before committing.
 
